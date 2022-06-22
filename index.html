@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>WALL CLOCK</title>
+  </head>
+  <body onload="startTime();">
+    <script src="./NoSleep.min.js"></script>
+    <div class="container">
+      <div class="top-half"></div>
+      <div class="time-card">
+        <div class="full-date">
+          <p id="date-month-year"></p>
+          <p class="time"></p>
+        </div>
+        <div class="current-weather">
+          <div class="icon">
+            <div><img id="current-icon" src="" alt="" /></div>
+            <div class="small-text" id="current-main"></div>
+          </div>
+          <div class="max">
+            <div id="max-temp">-9</div>
+            <div class="small-text">&degC</div>
+          </div>
+          <!-- <div class="min">
+            <div id="min-temp">-2</div>
+            <div class="small-text">MIN</div>
+          </div> -->
+        </div>
+      </div>
+      <div class="bottom-second">
+        <div class="top-titles">
+          <h4>Day</h4>
+          <h4>Forcast</h4>
+          <h4>&degC</h4>
+        </div>
+
+        <div id="one" class="future-forecast">
+          <span id="one-date" class="date-margin"></span>
+          <img id="one-icon" src="" alt="" />
+          <span id="one-short-desc"></span>
+          <span id="one-temp">temp</span>
+        </div>
+
+        <div id="two" class="future-forecast">
+          <span id="two-date" class="date-margin"></span>
+          <img id="two-icon" src="" alt="" />
+          <span id="two-short-desc"></span>
+          <span id="two-temp">temp</span>
+        </div>
+
+        <div id="three" class="future-forecast">
+          <span id="three-date" class="date-margin"></span>
+          <img id="three-icon" src="" alt="" />
+          <span id="three-short-desc"></span>
+          <span id="three-temp">temp</span>
+        </div>
+
+        <div id="four" class="future-forecast">
+          <span id="four-date" class="date-margin"></span>
+          <img id="four-icon" src="" alt="" />
+          <span id="four-short-desc"></span>
+          <span id="four-temp">temp</span>
+        </div>
+
+        
+      </div>
+
+      <div class="bottom-third">
+        <div class="top-titles">
+          <h4>Day</h4>
+          <h4>Forcast</h4>
+          <h4>&degC</h4>
+        </div>
+
+        <div id="five" class="future-forecast">
+          <span id="five-date" class="date-margin"></span>
+          <img id="five-icon" src="" alt="" />
+          <span id="five-short-desc"></span>
+          <span id="five-temp">temp</span>
+        </div>
+
+        <div id="six" class="future-forecast">
+          <span id="six-date" class="date-margin"></span>
+          <img id="six-icon" src="" alt="" />
+          <span id="six-short-desc"></span>
+          <span id="six-temp">temp</span>
+        </div>
+
+        <div id="seven" class="future-forecast">
+          <span id="seven-date" class="date-margin"></span>
+          <img id="seven-icon" src="" alt="" />
+          <span id="seven-short-desc"></span>
+          <span id="seven-temp">temp</span>
+        </div>
+
+        <div id="eight" class="future-forecast">
+          <span id="eight-date" class="date-margin"></span>
+          <img id="eight-icon" src="" alt="" />
+          <span id="eight-short-desc"></span>
+          <span id="eight-temp">temp</span>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+    <script src="./current.js"></script>
+    <script src="./forecast.js"></script>
+  </body>
+</html>
